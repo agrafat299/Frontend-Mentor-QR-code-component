@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <title>QR code components</title>
+    <style>
+        .container{
+            max-width: 260px;
+            margin: 0 auto;
+            margin-top: 20px;
+            text-align: center;
+            height: 400px;
+            background-color: hsl(0, 0%, 100%);
+            padding: 10px;
+            border-radius: 13px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        }
+        .container img{
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        }
+        .text{
+            line-height: 20px;
+            margin-top: 10px;
+            font-weight: 400,700;
+            font-family: 'outfit',sans-serif;
+        }
+        .text h4{
+            margin-bottom: 10px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .QR-codebox{
+            background-color: hsl(212, 45%, 89%);
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1em;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="QR-codebox">
+        <div class="container">
+            <img src="images/image-qr-code.png" alt="qr-scan">
+            <div class="text">
+                <h4>Improve your front-end skill by building projects</h4>
+                <p>The QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </div>
+      </div>
+      <p>Challenge by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a>. Coded by <a href="file:///C:/Users/agraf/AppData/Local/Temp/Temp1_qr-code-component-main.zip/qr-code-component-main/index.html#">your name here</a>.</p>
+    </div>
+  </body>
+</html>
